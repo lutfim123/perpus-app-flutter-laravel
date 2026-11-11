@@ -215,7 +215,6 @@ php artisan test
 
 ## 👨‍💻 Identitas Pengembang (Author)
 - **Nama:** Muhammad Lutfi Maulana
-- **NIM / Identitas:** *(Dapat ditambahkan NIM Anda di sini)*
 - **Mata Kuliah:** Mobile Programming (Pertemuan 11)
 - **GitHub:** [@lutfim123](https://github.com/lutfim123)
 
