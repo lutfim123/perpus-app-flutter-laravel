@@ -1,0 +1,15 @@
+// lib/core/theme/app_theme.dart
+import 'package:flutter/material.dart';
+
+class AppTheme {
+  static ThemeData get light => ThemeData(
+        useMaterial3: true,
+        colorSchemeSeed: const Color(0xFF1565C0),
+        brightness: Brightness.light,
+        inputDecorationTheme: const InputDecorationTheme(
+          border: OutlineInputBorder(),
+          contentPadding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+        ),
+      );
+}
+

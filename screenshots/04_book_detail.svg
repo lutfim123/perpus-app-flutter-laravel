@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 650" width="400" height="650">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <!-- Device Frame -->
+  <rect x="10" y="10" width="380" height="630" rx="36" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="3" filter="url(#shadow)"/>
+  
+  <!-- App Bar -->
+  <rect x="10" y="10" width="380" height="70" rx="36" fill="#1565C0"/>
+  <rect x="10" y="45" width="380" height="35" fill="#1565C0"/>
+  <path d="M36 62 L44 54 M36 62 L44 70" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+  <text x="58" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">Detail Buku</text>
+  <!-- App Bar Actions: Edit & Delete -->
+  <circle cx="318" cy="62" r="14" fill="#1E88E5"/>
+  <path d="M314 66 L322 58" stroke="#FFFFFF" stroke-width="1.8"/>
+  <circle cx="355" cy="62" r="14" fill="#1E88E5"/>
+  <path d="M351 58 L359 66 M359 58 L351 66" stroke="#EF4444" stroke-width="2"/>
+
+  <!-- Content Card -->
+  <rect x="25" y="100" width="350" height="420" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2" filter="url(#shadow)"/>
+
+  <!-- Header Section with Icon -->
+  <circle cx="65" cy="145" r="26" fill="#E3F2FD"/>
+  <path d="M54 137 C58 134 62 134 65 137 C68 134 72 134 76 137 V153 C72 150 68 150 65 153 C62 150 58 150 54 153 Z" fill="none" stroke="#1565C0" stroke-width="2" stroke-linejoin="round"/>
+  
+  <text x="105" y="140" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="bold" fill="#0F172A">Laskar Pelangi</text>
+  <text x="105" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#64748B">Penulis: Andrea Hirata</text>
+
+  <line x1="45" y1="185" x2="355" y2="185" stroke="#F1F5F9" stroke-width="1.5"/>
+
+  <!-- Fields List -->
+  <text x="45" y="215" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#64748B">Penerbit</text>
+  <text x="160" y="215" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#1E293B">Bentang Pustaka</text>
+
+  <text x="45" y="248" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#64748B">ISBN</text>
+  <text x="160" y="248" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#1E293B">9789793062792</text>
+
+  <text x="45" y="281" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#64748B">Tahun Terbit</text>
+  <text x="160" y="281" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#1E293B">2005</text>
+
+  <text x="45" y="314" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#64748B">Status Stok</text>
+  <rect x="160" y="300" width="85" height="22" rx="6" fill="#DCFCE7"/>
+  <text x="202" y="315" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="bold" fill="#15803D" text-anchor="middle">Stok: 8 (Tersedia)</text>
+
+  <line x1="45" y1="340" x2="355" y2="340" stroke="#F1F5F9" stroke-width="1.5"/>
+
+  <!-- Description Section -->
+  <text x="45" y="365" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="bold" fill="#0F172A">Deskripsi</text>
+  <text x="45" y="390" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#475569" width="310">
+    <tspan x="45" dy="0">Kisah persahabatan 10 anak laskar pelangi dalam</tspan>
+    <tspan x="45" dy="18">menempuh pendidikan di sebuah sekolah desa di</tspan>
+    <tspan x="45" dy="18">Belitong yang penuh dengan keterbatasan dan inspirasi.</tspan>
+  </text>
+
+  <!-- Bottom Action Buttons -->
+  <rect x="25" y="540" width="168" height="46" rx="23" fill="#FFFFFF" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="109" y="568" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#1565C0" text-anchor="middle">✎ Edit Buku</text>
+
+  <rect x="207" y="540" width="168" height="46" rx="23" fill="#DC2626"/>
+  <text x="291" y="568" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">🗑 Hapus Buku</text>
+
+  <!-- Home Indicator -->
+  <rect x="140" y="625" width="120" height="4" rx="2" fill="#94A3B8"/>
+</svg>

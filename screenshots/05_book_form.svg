@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 650" width="400" height="650">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <!-- Background Backdrop -->
+  <rect x="0" y="0" width="400" height="650" fill="#0F172A" opacity="0.45"/>
+  
+  <!-- Modal Dialog Frame -->
+  <rect x="25" y="45" width="350" height="560" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+
+  <!-- Dialog Title -->
+  <text x="50" y="85" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="bold" fill="#0F172A">Tambah Buku</text>
+  <text x="50" y="103" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#64748B">Lengkapi form berikut untuk mendaftarkan buku baru</text>
+
+  <!-- Input Judul -->
+  <rect x="50" y="120" width="300" height="42" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="62" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#1E293B">Laskar Pelangi *</text>
+
+  <!-- Input Penulis -->
+  <rect x="50" y="172" width="300" height="42" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="62" y="198" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#1E293B">Andrea Hirata *</text>
+
+  <!-- Input Penerbit -->
+  <rect x="50" y="224" width="300" height="42" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="62" y="250" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">Penerbit (Opsional)</text>
+
+  <!-- Input ISBN dengan Validasi Error 422 -->
+  <rect x="50" y="276" width="300" height="42" rx="8" fill="#FFF1F2" stroke="#EF4444" stroke-width="1.5"/>
+  <text x="62" y="302" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#DC2626">9789793062792 *</text>
+  <!-- Error Text 422 -->
+  <text x="52" y="330" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="500" fill="#DC2626">⚠ The isbn has already been taken. (HTTP 422)</text>
+
+  <!-- Input Tahun & Stok (Row) -->
+  <rect x="50" y="345" width="142" height="42" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="62" y="371" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#1E293B">Tahun: 2005 *</text>
+
+  <rect x="208" y="345" width="142" height="42" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="220" y="371" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#1E293B">Stok: 8 *</text>
+
+  <!-- Input Deskripsi -->
+  <rect x="50" y="398" width="300" height="65" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="62" y="420" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">Deskripsi singkat...</text>
+
+  <!-- Dialog Actions -->
+  <rect x="180" y="540" width="80" height="38" rx="8" fill="#F1F5F9"/>
+  <text x="220" y="564" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#475569" text-anchor="middle">Batal</text>
+
+  <rect x="270" y="540" width="80" height="38" rx="8" fill="#1565C0"/>
+  <text x="310" y="564" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Tambah</text>
+</svg>
