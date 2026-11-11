@@ -22,7 +22,7 @@
   <!-- Input Nama -->
   <rect x="40" y="180" width="320" height="46" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
   <text x="56" y="196" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#64748B">Nama</text>
-  <text x="56" y="213" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#1E293B">Lutfi Ramadhan</text>
+  <text x="56" y="213" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#1E293B">Muhammad Lutfi Maulana</text>
 
   <!-- Input Email -->
   <rect x="40" y="238" width="320" height="46" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>

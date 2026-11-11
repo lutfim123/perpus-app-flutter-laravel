@@ -1,5 +1,6 @@
 # 📝 Laporan & Jawaban Soal Latihan: Integrasi REST API Laravel & Flutter MVVM
 
+**Nama Mahasiswa:** Muhammad Lutfi Maulana  
 **Mata Kuliah:** Mobile Programming  
 **Topik:** Pertemuan 11 — Integrasi REST API, Autentikasi Sanctum, MVVM + Riverpod  
 **Aplikasi:** Perpustakaan (`perpus_app`) & Backend (`perpus-api`)  
